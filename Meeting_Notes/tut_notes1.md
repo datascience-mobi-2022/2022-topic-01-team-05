@@ -8,6 +8,7 @@
 
 ## Questions
 - Müssen wir eine PCA implementieren?
+-
 
 ## Plans for next week
 -
