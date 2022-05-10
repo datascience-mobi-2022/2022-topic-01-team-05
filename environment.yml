@@ -1,0 +1,10 @@
+name: environment
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+prefix: C:\Users\emi28\anaconda3\envs\environment
