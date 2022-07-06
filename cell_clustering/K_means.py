@@ -99,7 +99,7 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
 
         
 
-        if distance_type == "euclidian":
+        if distance_type == "euclidean":
             def calculate_distance(a,b):
 
                 a = np.array(a)
@@ -128,7 +128,7 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
 
 
         else:
-            print("invalid distance_type, distance_type has to be: manhattan, euclidian or chebyshnev")
+            print("invalid distance_type, distance_type has to be: manhattan, euclidean or chebyshnev")
             exit()
 
         print("Coloured Clustering")
