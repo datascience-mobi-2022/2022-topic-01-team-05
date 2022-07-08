@@ -184,7 +184,7 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
             new_centroids = []
 
             for k in range(clusters):
-                new_centroids.append(list(sum(responsibility[:,k] * Pixelarray, axis = 0)/sum(responsibility[:,k,0])))
+                new_centroids.append(list(sum(responsibility[:,k] * Pixelarray)/sum(responsibility[:,k,0])))
             return new_centroids
 
 
