@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 import random
 
-def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
+def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclidian"):
     
     
     if image.mode == "L":  # Grayscale Images
@@ -10,9 +10,12 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
         print("Grayscale Image Clustering")
 
         def calculate_distance(a,b):
-            distance = a-b
-            return distance
 
+            a = np.array(a)
+            b = np.array(b)
+            distance_vector = a - b
+            distance = abs(distance_vector)
+            return distance
 
         def initiate_centroids(K,image):
             imagePixels = list(image.getdata())
@@ -24,15 +27,22 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
 
         def responsibility(centroids, image):
             imagePixels = list(image.getdata())
+
             x = len(imagePixels)
+
             k = len(centroids)
+
             matrix = np.zeros((x,k))
 
             for p in range(x):
+
                 distance = []
+
                 for c in centroids:
+            
                     distance.append(calculate_distance(imagePixels[p], c))
-                    matrix[p,np.argmin(distance)] = 1
+        
+                matrix[p,np.argmin(distance)] = 1
             return matrix
         
 
@@ -57,6 +67,7 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
             new_centroids = []
 
             for k in range(clusters):
+                print(sum(responsibility[:,k] * Pixelarray),sum(responsibility[:,k]))
                 new_centroids.append(sum(responsibility[:,k] * Pixelarray)/sum(responsibility[:,k]))
             return new_centroids
 
@@ -228,3 +239,4 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type):
 
     segmented_image = k_means(image, K, iterations)
     return segmented_image
+
