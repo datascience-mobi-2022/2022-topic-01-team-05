@@ -136,10 +136,19 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
                 b = np.array(b)
                 distance = max(abs(a-b))
                 return distance
+        
+        elif distance_type == "correlation":
+            def calculate_distance(a,b):
+
+                a = np.array(a)
+                b = np.array(b)
+                s = np.corrcoef(a,b)[0, 1]
+                distance = 0.5*(1-s)
+                return distance
 
 
         else:
-            print("invalid distance_type, distance_type has to be: manhattan, euclidean or chebyshnev")
+            print("invalid distance_type, distance_type has to be: manhattan, euclidean, chebyshnev or correlation")
             exit()
 
         print("Coloured Clustering")
