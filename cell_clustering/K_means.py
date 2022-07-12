@@ -69,7 +69,6 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
             new_centroids = []
 
             for k in range(clusters):
-                print(sum(responsibility[:,k]))
                 new_centroids.append(sum(responsibility[:,k] * Pixelarray)/sum(responsibility[:,k]))
             return new_centroids
 
