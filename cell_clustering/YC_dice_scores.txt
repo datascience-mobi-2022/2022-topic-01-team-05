@@ -1,48 +1,48 @@
-Dice similarity score is 0.8318652442019621
-Dice similarity score is 0.8268211730191544
-Dice similarity score is 0.8322243591014533
-Dice similarity score is 0.8737783183342087
-Dice similarity score is 0.8735383608014874
-Dice similarity score is 0.8689763741435854
-Dice similarity score is 0.8400767959243937
-Dice similarity score is 0.8529418809417935
-Dice similarity score is 0.8552156111911154
-Dice similarity score is 0.8530065837600586
-Dice similarity score is 0.862186212713249
-Dice similarity score is 0.8538325906720633
-Dice similarity score is 0.8798792277232838
-Dice similarity score is 0.8787369077342503
-Dice similarity score is 0.8770678858050015
-Dice similarity score is 0.8716812193939304
-Dice similarity score is 0.880186164810278
-Dice similarity score is 0.8800606818383874
-Dice similarity score is 0.870766926533277
-Dice similarity score is 0.8762229777707888
-Dice similarity score is 0.8768624270334135
-Dice similarity score is 0.8804926533210392
-Dice similarity score is 0.8817717967016696
-Dice similarity score is 0.8852015617829837
-Dice similarity score is 0.8801940735487597
-Dice similarity score is 0.8773105429325107
-Dice similarity score is 0.873923271179991
-Dice similarity score is 0.8753278623514648
-Dice similarity score is 0.8791933180388641
-Dice similarity score is 0.879835712405481
-Dice similarity score is 0.8693622648430035
-Dice similarity score is 0.8761583692361492
-Dice similarity score is 0.8754433791833042
-Dice similarity score is 0.8775526345854706
-Dice similarity score is 0.88452213907461
-Dice similarity score is 0.8860681362490588
-Dice similarity score is 0.8724801538869985
-Dice similarity score is 0.8750871337843181
-Dice similarity score is 0.8686922918925633
-Dice similarity score is 0.8771726600606036
-Dice similarity score is 0.8793549673410241
-Dice similarity score is 0.8769362684819693
-Dice similarity score is 0.8676599043092322
-Dice similarity score is 0.8725476469061945
-Dice similarity score is 0.8746460094212718
-Dice similarity score is 0.8782349421718083
-Dice similarity score is 0.8809518907317915
-Dice similarity score is 0.8849688771480866
+YC_edgeenhancement_HSV_chebyshnev 0.8318652442019621
+YC_edgeenhancement_HSV_euclidean 0.8268211730191544
+YC_edgeenhancement_HSV_manhattan 0.8322243591014533
+YC_edgeenhancement_LAB_chebyshnev 0.8737783183342087
+YC_edgeenhancement_LAB_euclidean 0.8735383608014874
+YC_edgeenhancement_LAB_manhattan 0.8689763741435854
+YC_edgeenhancement_RGB_chebyshnev 0.8400767959243937
+YC_edgeenhancement_RGB_euclidean 0.8529418809417935
+YC_edgeenhancement_RGB_manhattan 0.8552156111911154
+YC_edgeenhancement_YCbCr_chebyshnev 0.8530065837600586
+YC_edgeenhancement_YCbCr_euclidean 0.862186212713249
+YC_edgeenhancement_YCbCr_manhattan 0.8538325906720633
+YC_gaussfilter_HSV_chebyshnev 0.8798792277232838
+YC_gaussfilter_HSV_euclidean 0.8787369077342503
+YC_gaussfilter_HSV_manhattan 0.8770678858050015
+YC_gaussfilter_LAB_chebyshnev 0.8716812193939304
+YC_gaussfilter_LAB_chebyshnev 0.880186164810278
+YC_gaussfilter_LAB_manhattan 0.8800606818383874
+YC_gaussfilter_RGB_chebyshnev 0.870766926533277
+YC_gaussfilter_RGB_euclidean 0.8762229777707888
+YC_gaussfilter_RGB_manhattan 0.8768624270334135
+YC_gaussfilter_YCbCr_chebyshnev 0.8804926533210392
+YC_gaussfilter_YCbCr_euclidean 0.8817717967016696
+YC_gaussfilter_YCbCr_manhattan 0.8852015617829837
+YC_nofilter_HSV_chebyshnev 0.8801940735487597
+YC_nofilter_HSV_euclidean 0.8773105429325107
+YC_nofilter_HSV_manhattan 0.873923271179991
+YC_nofilter_LAB_chebyshnev 0.8753278623514648
+YC_nofilter_LAB_euclidean 0.8791933180388641
+YC_nofilter_LAB_manhattan 0.879835712405481
+YC_nofilter_RGB_chebyshnev 0.8693622648430035
+YC_nofilter_RGB_euclidean 0.8761583692361492
+YC_nofilter_RGB_manhattan 0.8754433791833042
+YC_nofilter_YCbCr_chebyshnev 0.8775526345854706
+YC_nofilter_YCbCr_euclidean 0.88452213907461
+YC_nofilter_YCbCr_manhattan 0.8860681362490588
+YC_sharpen_HSV_chebyshnev 0.8724801538869985
+YC_sharpen_HSV_euclidean 0.8750871337843181
+YC_sharpen_HSV_manhattan 0.8686922918925633
+YC_sharpen_LAB_chebyshnev 0.8771726600606036
+YC_sharpen_LAB_euclidean 0.8793549673410241
+YC_sharpen_LAB_manhattan 0.8769362684819693
+YC_sharpen_RGB_chebyshnev 0.8676599043092322
+YC_sharpen_RGB_euclidean 0.8725476469061945
+YC_sharpen_RGB_manhattan 0.8746460094212718
+YC_sharpen_YCbCr_chebyshnev 0.8782349421718083
+YC_sharpen_YCbCr_euclidean 0.8809518907317915
+YC_sharpen_YCbCr_manhattan 0.8849688771480866
