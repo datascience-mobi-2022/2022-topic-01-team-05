@@ -1,0 +1,162 @@
+img00_edge_enhancement.png
+0.png
+Dice similarity score is 0.8591865820137369
+img00_median_filter.png
+0.png
+Dice similarity score is 0.8951960140384398
+img00_none.png
+0.png
+Dice similarity score is 0.8943783223933183
+img01_edge_enhancement.png
+1.png
+Dice similarity score is 0.8249042268937321
+img01_median_filter.png
+1.png
+Dice similarity score is 0.8853711103603341
+img01_none.png
+1.png
+Dice similarity score is 0.8845252721173281
+img02_edge_enhancement.png
+26.png
+Dice similarity score is 0.6692195541815243
+img02_median_filter.png
+26.png
+Dice similarity score is 0.8298069079796091
+img02_none.png
+26.png
+Dice similarity score is 0.8248360803970239
+img03_edge_enhancement.png
+27.png
+Dice similarity score is 0.6629263625393607
+img03_median_filter.png
+27.png
+Dice similarity score is 0.7362834954173372
+img03_none.png
+27.png
+Dice similarity score is 0.7345417270163801
+img04_edge_enhancement.png
+28.png
+Dice similarity score is 0.7066297568297076
+img04_median_filter.png
+28.png
+Dice similarity score is 0.0
+img04_none.png
+28.png
+Dice similarity score is 0.7528567225654604
+img05_edge_enhancement.png
+29.png
+Dice similarity score is 0.6232039268183847
+img05_median_filter.png
+29.png
+Dice similarity score is 0.6179766684846855
+img05_none.png
+29.png
+Dice similarity score is 0.6728102311790894
+img06_edge_enhancement.png
+30.png
+Dice similarity score is 0.5673446553998522
+img06_median_filter.png
+30.png
+Dice similarity score is 0.6506771626062763
+img06_none.png
+30.png
+Dice similarity score is 0.6466958730507323
+img07_edge_enhancement.png
+31.png
+Dice similarity score is 0.6263373547142262
+img07_median_filter.png
+31.png
+Dice similarity score is 0.7259260821045561
+img07_none.png
+31.png
+Dice similarity score is 0.7237186625334818
+img08_edge_enhancement.png
+32.png
+Dice similarity score is 0.058725940882704095
+img08_median_filter.png
+32.png
+Dice similarity score is 0.034365388558540086
+img08_none.png
+32.png
+Dice similarity score is 0.042206968158744806
+img09_edge_enhancement.png
+33.png
+Dice similarity score is 0.4998366617440206
+img09_median_filter.png
+33.png
+Dice similarity score is 0.48240431831614805
+img09_none.png
+33.png
+Dice similarity score is 0.5337521703977627
+img10_edge_enhancement.png
+37.png
+Dice similarity score is 0.5516201483019763
+img10_median_filter.png
+37.png
+Dice similarity score is 0.4966125126983036
+img10_none.png
+37.png
+Dice similarity score is 0.5254384953113458
+img11_edge_enhancement.png
+40.png
+Dice similarity score is 0.5763833425076765
+img11_median_filter.png
+40.png
+Dice similarity score is 0.6826525572468858
+img11_none.png
+40.png
+Dice similarity score is 0.680536637820677
+img12_edge_enhancement.png
+42.png
+Dice similarity score is 0.01833398407659531
+img12_median_filter.png
+42.png
+Dice similarity score is 0.0002718976261583058
+img12_none.png
+42.png
+Dice similarity score is 0.22747750979238704
+img13_edge_enhancement.png
+44.png
+Dice similarity score is 0.5793350015619921
+img13_median_filter.png
+44.png
+Dice similarity score is 0.5715168386746333
+img13_none.png
+44.png
+Dice similarity score is 0.5890371564211359
+img14_edge_enhancement.png
+45.png
+Dice similarity score is 0.5992197929523185
+img14_median_filter.png
+45.png
+Dice similarity score is 0.6157011421812936
+img14_none.png
+45.png
+Dice similarity score is 0.6286483663940449
+img15_edge_enhancement.png
+46.png
+Dice similarity score is 0.42391824765096653
+img15_median_filter.png
+46.png
+Dice similarity score is 0.15235479902078922
+img15_none.png
+46.png
+Dice similarity score is 0.3372506432592164
+img16_edge_enhancement.png
+47.png
+Dice similarity score is 0.39687846178192754
+img16_median_filter.png
+47.png
+Dice similarity score is 0.17686364989004957
+img16_none.png
+47.png
+Dice similarity score is 0.2531918087587553
+img17_edge_enhancement.png
+49.png
+Dice similarity score is 0.727061476860484
+img17_median_filter.png
+49.png
+Dice similarity score is 0.7980940984936302
+img17_none.png
+49.png
+Dice similarity score is 0.7965485556767932
