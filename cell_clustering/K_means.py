@@ -13,15 +13,17 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
 
             a = np.array(a)
             b = np.array(b)
-            distance_vector = a - b
-            distance = abs(distance_vector)
+            distance = abs(a-b)
             return distance
 
         def initiate_centroids(K,image):
             imagePixels = list(image.getdata())
             initial_centers = list()
             for x in range(K):
-                initial_centers.append(imagePixels[random.randint(0,len(imagePixels)-1)])
+                centroid = imagePixels[random.randint(0,len(imagePixels)-1)]
+                while centroid in initial_centers:
+                    centroid = imagePixels[random.randint(0,len(imagePixels)-1)]   
+                initial_centers.append(centroid)
             return initial_centers
 
 
@@ -67,7 +69,6 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
             new_centroids = []
 
             for k in range(clusters):
-                print(sum(responsibility[:,k] * Pixelarray),sum(responsibility[:,k]))
                 new_centroids.append(sum(responsibility[:,k] * Pixelarray)/sum(responsibility[:,k]))
             return new_centroids
 
@@ -157,7 +158,10 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
             imagePixels = list(image.getdata())
             initial_centers = list()
             for x in range(K):
-                initial_centers.append(list(imagePixels[random.randint(0,len(imagePixels)-1)]))
+                centroid = imagePixels[random.randint(0,len(imagePixels)-1)]
+                while centroid in initial_centers:
+                    centroid = imagePixels[random.randint(0,len(imagePixels)-1)]   
+                initial_centers.append(centroid)
             return initial_centers
 
 
