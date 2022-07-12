@@ -14,7 +14,7 @@ YC_gaussfilter_HSV_chebyshnev 0.8798792277232838
 YC_gaussfilter_HSV_euclidean 0.8787369077342503
 YC_gaussfilter_HSV_manhattan 0.8770678858050015
 YC_gaussfilter_LAB_chebyshnev 0.8716812193939304
-YC_gaussfilter_LAB_chebyshnev 0.880186164810278
+YC_gaussfilter_LAB_euclidean 0.880186164810278
 YC_gaussfilter_LAB_manhattan 0.8800606818383874
 YC_gaussfilter_RGB_chebyshnev 0.870766926533277
 YC_gaussfilter_RGB_euclidean 0.8762229777707888
