@@ -1,0 +1,216 @@
+BBBC_img00_edge_enhancement.png
+gt00.tif
+Dice similarity score is 0.8397413793103449
+BBBC_img00_median_filter.png
+gt00.tif
+Dice similarity score is 0.9036682356760266
+BBBC_img00_none.png
+gt00.tif
+Dice similarity score is 0.9071955869230145
+BBBC_img01_edge_enhancement.png
+gt01.tif
+Dice similarity score is 0.455779321666227
+BBBC_img01_median_filter.png
+gt01.tif
+Dice similarity score is 0.6717349370248497
+BBBC_img01_none.png
+gt01.tif
+Dice similarity score is 0.7638603696098563
+BBBC_img02_edge_enhancement.png
+gt02.tif
+Dice similarity score is 0.8233959818535321
+BBBC_img02_median_filter.png
+gt02.tif
+Dice similarity score is 0.8725162381336715
+BBBC_img02_none.png
+gt02.tif
+Dice similarity score is 0.8668165432768712
+BBBC_img03_edge_enhancement.png
+gt03.tif
+Dice similarity score is 0.40318951255654956
+BBBC_img03_median_filter.png
+gt03.tif
+Dice similarity score is 0.5943830539124673
+BBBC_img03_none.png
+gt03.tif
+Dice similarity score is 0.5405277498924422
+BBBC_img04_edge_enhancement.png
+gt04.tif
+Dice similarity score is 0.8231074676572306
+BBBC_img04_median_filter.png
+gt04.tif
+Dice similarity score is 0.861378221557009
+BBBC_img04_none.png
+gt04.tif
+Dice similarity score is 0.8506781699780165
+BBBC_img05_edge_enhancement.png
+gt05.tif
+Dice similarity score is 0.29928427925665496
+BBBC_img05_median_filter.png
+gt05.tif
+Dice similarity score is 0.6348732483073531
+BBBC_img05_none.png
+gt05.tif
+Dice similarity score is 0.5731761111879226
+BBBC_img06_edge_enhancement.png
+gt06.tif
+Dice similarity score is 0.7774528439830385
+BBBC_img06_median_filter.png
+gt06.tif
+Dice similarity score is 0.84143196120912
+BBBC_img06_none.png
+gt06.tif
+Dice similarity score is 0.84104225546288
+BBBC_img07_edge_enhancement.png
+gt07.tif
+Dice similarity score is 0.37528140477262495
+BBBC_img07_median_filter.png
+gt07.tif
+Dice similarity score is 0.6659733777038269
+BBBC_img07_none.png
+gt07.tif
+Dice similarity score is 0.6755525986762867
+BBBC_img08_edge_enhancement.png
+gt08.tif
+Dice similarity score is 0.8610157238387854
+BBBC_img08_median_filter.png
+gt08.tif
+Dice similarity score is 0.9117138908085695
+BBBC_img08_none.png
+gt08.tif
+Dice similarity score is 0.91343747303012
+BBBC_img09_edge_enhancement.png
+gt09.tif
+Dice similarity score is 0.2234532797333072
+BBBC_img09_median_filter.png
+gt09.tif
+Dice similarity score is 0.8067883156867163
+BBBC_img09_none.png
+gt09.tif
+Dice similarity score is 0.8053243758146997
+BBBC_img10_edge_enhancement.png
+gt10.tif
+Dice similarity score is 0.7823571259188997
+BBBC_img10_median_filter.png
+gt10.tif
+Dice similarity score is 0.8607370659107016
+BBBC_img10_none.png
+gt10.tif
+Dice similarity score is 0.8459982923650744
+BBBC_img11_edge_enhancement.png
+gt11.tif
+Dice similarity score is 0.32151575031965596
+BBBC_img11_median_filter.png
+gt11.tif
+Dice similarity score is 0.6594121159843408
+BBBC_img11_none.png
+gt11.tif
+Dice similarity score is 0.5838765297110896
+BBBC_img12_edge_enhancement.png
+gt12.tif
+Dice similarity score is 0.736675235646958
+BBBC_img12_median_filter.png
+gt12.tif
+Dice similarity score is 0.8748854961832061
+BBBC_img12_none.png
+gt12.tif
+Dice similarity score is 0.860445337869182
+BBBC_img13_edge_enhancement.png
+gt13.tif
+Dice similarity score is 0.4468373050897323
+BBBC_img13_median_filter.png
+gt13.tif
+Dice similarity score is 0.5890124324159208
+BBBC_img13_none.png
+gt13.tif
+Dice similarity score is 0.5922759860726993
+BBBC_img14_edge_enhancement.png
+gt14.tif
+Dice similarity score is 0.7156836096765425
+BBBC_img14_median_filter.png
+gt14.tif
+Dice similarity score is 0.8729573949729633
+BBBC_img14_none.png
+gt14.tif
+Dice similarity score is 0.8629332054203142
+BBBC_img15_edge_enhancement.png
+gt15.tif
+Dice similarity score is 0.21874618707142682
+BBBC_img15_median_filter.png
+gt15.tif
+Dice similarity score is 0.2780529999213651
+BBBC_img15_none.png
+gt15.tif
+Dice similarity score is 0.0642480817509989
+BBBC_img16_edge_enhancement.png
+gt16.tif
+Dice similarity score is 0.662413263167699
+BBBC_img16_median_filter.png
+gt16.tif
+Dice similarity score is 0.7866224665351853
+BBBC_img16_none.png
+gt16.tif
+Dice similarity score is 0.7761624210570932
+BBBC_img17_edge_enhancement.png
+gt17.tif
+Dice similarity score is 0.36586450346495464
+BBBC_img17_median_filter.png
+gt17.tif
+Dice similarity score is 0.5108368006483303
+BBBC_img17_none.png
+gt17.tif
+Dice similarity score is 0.4774722887427122
+BBBC_img18_edge_enhancement.png
+gt18.tif
+Dice similarity score is 0.6543430729477241
+BBBC_img18_median_filter.png
+gt18.tif
+Dice similarity score is 0.8397771207641573
+BBBC_img18_none.png
+gt18.tif
+Dice similarity score is 0.8313370393718837
+BBBC_img19_edge_enhancement.png
+gt19.tif
+Dice similarity score is 0.2845774766926288
+BBBC_img19_median_filter.png
+gt19.tif
+Dice similarity score is 0.29910783353101955
+BBBC_img19_none.png
+gt19.tif
+Dice similarity score is 0.3602058319039451
+BBBC_img20_edge_enhancement.png
+gt20.tif
+Dice similarity score is 0.807252254979115
+BBBC_img20_median_filter.png
+gt20.tif
+Dice similarity score is 0.8915513903308173
+BBBC_img20_none.png
+gt20.tif
+Dice similarity score is 0.8779239973851007
+BBBC_img21_edge_enhancement.png
+gt21.tif
+Dice similarity score is 0.4745580540234762
+BBBC_img21_median_filter.png
+gt21.tif
+Dice similarity score is 0.5705496661959599
+BBBC_img21_none.png
+gt21.tif
+Dice similarity score is 0.5224809175996602
+BBBC_img22_edge_enhancement.png
+gt22.tif
+Dice similarity score is 0.4242264416315049
+BBBC_img22_median_filter.png
+gt22.tif
+Dice similarity score is 0.7043165467625899
+BBBC_img22_none.png
+gt22.tif
+Dice similarity score is 0.6672093539554503
+BBBC_img23_edge_enhancement.png
+gt23.tif
+Dice similarity score is 0.24991991701877755
+BBBC_img23_median_filter.png
+gt23.tif
+Dice similarity score is 0.2512131848008546
+BBBC_img23_none.png
+gt23.tif
+Dice similarity score is 0.25575875604783493
