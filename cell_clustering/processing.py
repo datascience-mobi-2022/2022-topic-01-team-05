@@ -1,5 +1,7 @@
 from PIL import Image
 from PIL import ImageFilter
+import numpy as np
+import cv2
 
 
 def edge_enhancement(img):
@@ -57,3 +59,26 @@ def remove_bright_spots(img, t_bright, t_background):
             if img.getpixel((x,y)) > t_bright:
                 img.putpixel((x,y), t_background)
     return img
+
+def morphological_operation(img, kernel, operation:str):
+    """
+    applies the morphological operations Erosion, Dilation, Closing, Opening using different kernel sizes
+    : param img: image for the morphological operation
+    : kernel: kernelsize for morphological operation
+    : operation: which operation should be applied (Erosion, Dilation, Closing, Opening)
+    : return: image after the respective morphological operation
+    """
+    kernelsize = np.ones((kernel,kernel), np.uint8)
+    if operation == "erosion" or operation == "erode":
+        morphimage = cv2.erode(img, kernelsize, iterations=1)
+    elif operation == "dilation" or operation == "dilate":
+        morphimage = cv2.dilate(img, kernelsize, iterations=1)
+    elif operation == "closing" or operation == "close":
+        morphimage = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernelsize)
+    elif operation == "opening" or operation == "open":
+        morphimage = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernelsize)
+    else:
+        print("this morphological operation is not supported")
+    return morphimage
+    
+        
