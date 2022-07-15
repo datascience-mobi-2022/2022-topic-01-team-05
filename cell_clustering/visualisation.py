@@ -113,7 +113,6 @@ def boxplot_grayscale():
     sns.set(rc={'figure.figsize':(8,5)})
     ax = sns.boxplot(x="Processing", y="Dice Score", data=df, palette="Blues")
     ax.set(ylim=(0, 1))
-    plt.legend(loc=2)
     sns.set_style("whitegrid")
 
 
@@ -150,7 +149,6 @@ def boxplot_BBBC():
     sns.set(rc={'figure.figsize':(8,5)})
     ax = sns.boxplot(x="Preprocessing", y="Dice Score", data=df, palette="Blues")
     ax.set(ylim=(0, 1))
-    plt.legend(loc=2)
     sns.set_style("whitegrid")
 
 
