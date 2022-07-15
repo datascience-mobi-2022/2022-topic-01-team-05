@@ -1,6 +1,8 @@
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
+import skimage.io as sk
+import showing_images as si
 
 
 def barplot_preprocessing():
@@ -171,3 +173,15 @@ def barplot_reflections():
     ax.set(ylim=(0, 0.8))
     plt.legend(loc=2)
     sns.set_style("whitegrid")
+
+
+def load_data():
+    """
+    loads the raw data
+    : return: graph with four images, one of each data set
+    """
+    CN = sk.imread("../data/Cell_Nuclei.jpg")
+    YC = sk.imread("../data/Yeast_Cells.jpg")
+    GS = sk.imread("../data/NIH3T3/img/dna-0.png")
+    BBBC = sk.imread("../data/human_ht29_colon_cancer_2_images/img0.tif")
+    si.show_four_images_title(CN, YC, GS, BBBC, "Raw Data", "Cell Nuclei", "Yeast Cells", "NIH3T3 data set", "BBBC data set")
