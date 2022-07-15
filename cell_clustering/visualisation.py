@@ -185,3 +185,14 @@ def load_data():
     GS = sk.imread("../data/NIH3T3/img/dna-0.png")
     BBBC = sk.imread("../data/human_ht29_colon_cancer_2_images/img0.tif")
     si.show_four_images_title(CN, YC, GS, BBBC, "Raw Data", "Cell Nuclei", "Yeast Cells", "NIH3T3 data set", "BBBC data set")
+
+
+def position_images():
+    """
+    loads two example images of clustering with position
+    : return: graph with two images of the position clustering
+    """
+    pos = sk.imread("../cell_clustering/Position_Clustering/CN_position.png")
+    pos_weighted = sk.imread("../cell_clustering/Position_Clustering/CN_position_weighted_10_percent.png")
+    si.show_two_images_title(pos, pos_weighted, "Clustering of Cell Nuclei with Position as additional feature", 
+                    "Position weighted 100%", "Position weighted 10%")
