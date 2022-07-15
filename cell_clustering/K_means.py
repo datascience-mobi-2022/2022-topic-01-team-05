@@ -18,12 +18,21 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
         print("Grayscale Image Clustering")
 
         def calculate_distance(a,b):  # Grayscale distance
-            a = np.array(a)
-            b = np.array(b)
+            """
+            calculates the distance between 2 values 
+            : param a,b: 2 input values (integers)
+            : return: distance value (integer)
+            """
             distance = abs(a-b)
             return distance
 
         def initiate_centroids(K,image):   # Initialises K centroids on an image
+            """
+            initiates centroids based on the values of an image
+            : param K: number of centroids to be initiated
+            : param image: image, based upon which the centroids will be initiated
+            : returm: list of centroids
+            """
             imagePixels = list(image.getdata())
             initial_centers = list()
             for x in range(K):  # iterating over all centroids
@@ -35,6 +44,12 @@ def K_Means(image: Image.Image, K: int, iterations: int, distance_type = "euclid
 
 
         def responsibility(centroids, image):  # creates a matrix that shows, which clusters are responsible for which Pixels
+            """
+            calculates a matrix of responsibilities for pixels and centroids
+            : param centroids: centroids used for responsibility calculation
+            : param image: image for which responsibilities should be calculated
+            : return: responsibility of each centroid for each pixel
+            """
             imagePixels = list(image.getdata())
             x = len(imagePixels)
             k = len(centroids)
