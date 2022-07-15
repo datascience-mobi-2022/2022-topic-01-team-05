@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def show_two_images_title(img1, img2, f_title, img1_title, img2_title):
     plt.figure(figsize=(10, 4))
-    plt.suptitle(f_title, fontsize=16)
+    plt.suptitle(f_title, fontsize=20, y=1.1)
 
     s1 = plt.subplot(1, 2, 1)
     s1.set_title(img1_title, fontsize=14)

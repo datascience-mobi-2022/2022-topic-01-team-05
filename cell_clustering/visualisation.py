@@ -194,5 +194,5 @@ def position_images():
     """
     pos = sk.imread("../cell_clustering/Position_Clustering/CN_position.png")
     pos_weighted = sk.imread("../cell_clustering/Position_Clustering/CN_position_weighted_10_percent.png")
-    si.show_two_images_title(pos, pos_weighted, "Clustering of Cell Nuclei with Position as additional feature", 
+    si.show_two_images_title(pos, pos_weighted, "Clustering of Cell Nuclei with position as additional feature", 
                     "Position weighted 100%", "Position weighted 10%")
