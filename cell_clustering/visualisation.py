@@ -196,3 +196,13 @@ def position_images():
     pos_weighted = sk.imread("../cell_clustering/Position_Clustering/CN_position_weighted_10_percent.png")
     si.show_two_images_title(pos, pos_weighted, "Clustering of Cell Nuclei with position as additional feature", 
                     "Position weighted 100%", "Position weighted 10%")
+
+
+def load_reflections():
+    img32 = sk.imread("../data/NIH3T3/img/dna-32.png")
+    img32_clustered = sk.imread("../cell_clustering/Grayscale_Output/img08_none.png")
+    img32_removed = sk.imread("../data/grayscale32_removed_bright_spots.jpg")
+    img32_removed_clustered = sk.imread("../cell_clustering/Reflections_Clustering/img32_reflections_removed.png")
+    si.show_four_images_two_rows_title(img32, img32_clustered, img32_removed, img32_removed_clustered, 
+            "Clustering of Image 32 with and without reflections", "Image 32", "Clustering of Image 32", "Image 32 without bright spots",
+            "Clustering of Image 32 without bright spots")
