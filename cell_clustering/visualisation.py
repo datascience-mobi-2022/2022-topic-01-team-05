@@ -220,3 +220,11 @@ def load_colorspaces():
     si.show_eight_images_two_rows_title(CN_RGB, CN_HSV, CN_LAB, CN_YCbCr, YC_RGB, YC_HSV, YC_LAB, YC_YCbCr, "Color space conversions", 
     "Cell Nuclei RGB", "Cell Nuclei HSV", "Cell Nuclei LAB", "Cell Nuclei YCbCr", "Yeast Cells RGB", "Yeast Cells HSV",
     "Yeast Cells LAB", "Yeast Cells YCbCr")
+
+
+def load_best_combinations():
+    YC = sk.imread("../data/Yeast_Cells.jpg")
+    YC_combi = sk.imread("../cell_clustering/Coloured_Clustering/Yeast_Cells/YC_nofilter_YCbCr_manhattan.jpg")
+    CN = sk.imread("../data/Cell_Nuclei.jpg")
+    CN_combi = sk.imread("../cell_clustering/Coloured_Clustering/Cell_Nuclei/CN_gaussfilter_RGB_euclidean.jpg")
+    si.show_four_images_two_rows_title(YC, CN, YC_combi, CN_combi, "Best Clustering Results", "Yeast Cells", "Cell Nuclei", "Best Clustering of Yeast Cells", "Best Clustering of Cell Nuclei")
