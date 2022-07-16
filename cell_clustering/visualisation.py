@@ -199,6 +199,10 @@ def position_images():
 
 
 def load_reflections():
+    """
+    loads example images for visualisation of the bright spot removal
+    : return: graph with four images underlining the impact of the removal of bright spots
+    """
     img32 = sk.imread("../data/NIH3T3/img/dna-32.png")
     img32_clustered = sk.imread("../cell_clustering/Grayscale_Output/img08_none.png")
     img32_removed = sk.imread("../data/grayscale32_removed_bright_spots.jpg")
@@ -209,6 +213,10 @@ def load_reflections():
 
 
 def load_colorspaces():
+    """
+    loads the Cell Nuclei and Yeast Cell images in different color spaces
+    : return: a graph with eight images in different color spaces
+    """
     CN_RGB = sk.imread("../data/Cell_Nuclei.jpg")
     CN_HSV = sk.imread("../cell_clustering/Color_spaces_images/CN_HSV.jpg")
     CN_LAB = sk.imread("../cell_clustering/Color_spaces_images/CN_LAB.jpg")
@@ -223,6 +231,10 @@ def load_colorspaces():
 
 
 def load_best_combinations():
+    """
+    loads the clustering results of the best combinations for Yeast Cells and Cell Nuclei
+    : return: a graph with four images showing the original image and the output of the best combination clustering
+    """
     YC = sk.imread("../data/Yeast_Cells.jpg")
     YC_combi = sk.imread("../cell_clustering/Coloured_Clustering/Yeast_Cells/YC_nofilter_YCbCr_manhattan.jpg")
     CN = sk.imread("../data/Cell_Nuclei.jpg")
