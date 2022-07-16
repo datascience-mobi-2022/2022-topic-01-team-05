@@ -206,3 +206,17 @@ def load_reflections():
     si.show_four_images_two_rows_title(img32, img32_clustered, img32_removed, img32_removed_clustered, 
             "Clustering of Image 32 with and without reflections", "Image 32", "Clustering of Image 32", "Image 32 without bright spots",
             "Clustering of Image 32 without bright spots")
+
+
+def load_colorspaces():
+    CN_RGB = sk.imread("../data/Cell_Nuclei.jpg")
+    CN_HSV = sk.imread("../cell_clustering/Color_spaces_images/CN_HSV.jpg")
+    CN_LAB = sk.imread("../cell_clustering/Color_spaces_images/CN_LAB.jpg")
+    CN_YCbCr = sk.imread("../cell_clustering/Color_spaces_images/CN_YCbCr.jpg")
+    YC_RGB = sk.imread("../data/Yeast_Cells.jpg")
+    YC_HSV = sk.imread("../cell_clustering/Color_spaces_images/YC_HSV.jpg")
+    YC_LAB = sk.imread("../cell_clustering/Color_spaces_images/YC_LAB.jpg")
+    YC_YCbCr = sk.imread("../cell_clustering/Color_spaces_images/CN_YCbCr.jpg")
+    si.show_eight_images_two_rows_title(CN_RGB, CN_HSV, CN_LAB, CN_YCbCr, YC_RGB, YC_HSV, YC_LAB, YC_YCbCr, "Color space conversions", 
+    "Cell Nuclei RGB", "Cell Nuclei HSV", "Cell Nuclei LAB", "Cell Nuclei YCbCr", "Yeast Cells RGB", "Yeast Cells HSV",
+    "Yeast Cells LAB", "Yeast Cells YCbCr")
