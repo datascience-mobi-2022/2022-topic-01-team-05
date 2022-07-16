@@ -55,7 +55,7 @@ def barplot_distances():
     dice_score = [0.9641489822003173, 0.8761583692361492, 0.9614845685332177, 0.8754433791833042, 0.9600499048134323, 0.8693622648430035, 
                     0.961095941927927, 0.42419474697607357]
     image = ["Cell Nuclei", "Yeast Cells", "Cell Nuclei", "Yeast Cells", "Cell Nuclei", "Yeast Cells", "Cell Nuclei", "Yeast Cells"]
-    distance = ["euclidean", "euclidean", "manhattan", "manhattan", "chebyshnev", "chebyshnev", "correlation", "correlation"]
+    distance = ["euclidean", "euclidean", "manhattan", "manhattan", "chebyshev", "chebyshev", "correlation", "correlation"]
 
     df = pd.DataFrame(list(zip(dice_score, image, distance)), columns=columns_names)
 
