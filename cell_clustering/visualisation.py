@@ -62,7 +62,7 @@ def barplot_distances():
     sns.set(rc={'figure.figsize':(8,5)})
     ax = sns.barplot(x="Distance", y="Dice Score", hue="Image", data=df, palette="Blues")
     ax.set(ylim=(0.4, 1))
-    plt.legend(loc=2)
+    plt.legend(loc=3)
     sns.set_style("whitegrid")
 
 
@@ -216,7 +216,7 @@ def load_colorspaces():
     YC_RGB = sk.imread("../data/Yeast_Cells.jpg")
     YC_HSV = sk.imread("../cell_clustering/Color_spaces_images/YC_HSV.jpg")
     YC_LAB = sk.imread("../cell_clustering/Color_spaces_images/YC_LAB.jpg")
-    YC_YCbCr = sk.imread("../cell_clustering/Color_spaces_images/CN_YCbCr.jpg")
+    YC_YCbCr = sk.imread("../cell_clustering/Color_spaces_images/YC_YCbCr.jpg")
     si.show_eight_images_two_rows_title(CN_RGB, CN_HSV, CN_LAB, CN_YCbCr, YC_RGB, YC_HSV, YC_LAB, YC_YCbCr, "Color space conversions", 
     "Cell Nuclei RGB", "Cell Nuclei HSV", "Cell Nuclei LAB", "Cell Nuclei YCbCr", "Yeast Cells RGB", "Yeast Cells HSV",
     "Yeast Cells LAB", "Yeast Cells YCbCr")
