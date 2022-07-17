@@ -30,8 +30,8 @@ def getPositions(img):
     i = 0
     j = 0
     positions = []
-    for i in range(width):
-        for j in range(height):
+    for j in range(width):
+        for i in range(height):
             list_positions = []
             coordinate = i, j
             list_positions.append(i)
