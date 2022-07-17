@@ -247,7 +247,7 @@ def load_project_overview():
     loads a diagram with an overview of the project
     : return: diagram with an overview of the project
     """
-    overview = sk.imread("../code/Algorithm_diagram.png")
+    overview = sk.imread("../cell_clustering/Diagrams_Report/Algorithm_diagram.png")
     si.show_one_image_title(overview, "Overview of the Project")
 
 
@@ -256,5 +256,5 @@ def load_kmeans_diagram():
     loads a diagram with an overview of the K-Means algorithm
     : return: diagram with an overview of the K-Means algorithm
     """
-    diagram = sk.imread("../code/K-Means_explained.png")
+    diagram = sk.imread("../cell_clustering/Diagrams_Report/K-Means_explained.png")
     si.show_one_image_title2(diagram, "The K-Means algorithm")
