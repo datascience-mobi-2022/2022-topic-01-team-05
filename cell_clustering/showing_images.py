@@ -118,7 +118,7 @@ def show_eight_images_two_rows_title(img1, img2, img3, img4, img5, img6,img7, im
 
 
 def show_one_image_title(img1, f_title):
-    plt.figure(figsize=(15, 11))
+    plt.figure(figsize=(13, 9))
     plt.suptitle(f_title, fontsize=26, y = 0.95 )
 
     s1 = plt.subplot(1, 1, 1)
