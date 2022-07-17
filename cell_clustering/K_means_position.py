@@ -90,7 +90,13 @@ def findClosestCentroids(centroids, image):
     return assigned_centroid
 
 
-def responsibility(centroids, image):
+def responsibility(centroids, image):#
+    """
+    calculates a matrix of responsibilities for pixels and centroids
+    : param centroids: centroids used for responsibility calculation
+    : param image: image for which responsibilities should be calculated
+    : return: responsibility of each centroid for each pixel
+    """
     imagePixels = normalize(getPositions(image))
 
     x = len(imagePixels)
@@ -114,7 +120,12 @@ def responsibility(centroids, image):
 
 
 def clustermeans(responsibility, image):
-
+    """
+    calculates new centroid
+    : param responsibilities of each centroid for each pixel:
+    : param image: image for which pixels were assigned
+    : return: list of new centroids
+    """
     Pixelarray = numpy.array(normalize(getPositions(image)))
 
     clusters = len(responsibility[1])
@@ -127,7 +138,13 @@ def clustermeans(responsibility, image):
 
 
 def k_means2(image, K, iterations):
-    
+    """
+    Clusters an image
+    : param image: image to be clustered
+    : param K: number of clusters
+    : param iterations: maximum iterations
+    : return: clustered image
+    """
     centroids = initiate_centroids(K, image)
 
     new_centroids = []
