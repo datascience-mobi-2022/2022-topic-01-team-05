@@ -115,3 +115,23 @@ def show_eight_images_two_rows_title(img1, img2, img3, img4, img5, img6,img7, im
     plt.imshow(img8)
 
     plt.subplots_adjust(wspace=0.1, hspace=0.5)
+
+
+def show_one_image_title(img1, f_title):
+    plt.figure(figsize=(15, 11))
+    plt.suptitle(f_title, fontsize=26, y = 0.95 )
+
+    s1 = plt.subplot(1, 1, 1)
+    plt.axis('off')
+    s1.grid(False)
+    plt.imshow(img1)
+
+
+def show_one_image_title2(img1, f_title):
+    plt.figure(figsize=(13, 8))
+    plt.suptitle(f_title, fontsize=26, y = 0.95 )
+
+    s1 = plt.subplot(1, 1, 1)
+    plt.axis('off')
+    s1.grid(False)
+    plt.imshow(img1)

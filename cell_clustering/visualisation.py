@@ -241,13 +241,15 @@ def load_best_combinations():
     CN_combi = sk.imread("../cell_clustering/Coloured_Clustering/Cell_Nuclei/CN_gaussfilter_RGB_euclidean.jpg")
     si.show_four_images_two_rows_title(YC, CN, YC_combi, CN_combi, "Best Clustering Results", "Yeast Cells", "Cell Nuclei", "Best Clustering of Yeast Cells", "Best Clustering of Cell Nuclei")
 
-def load_algorithm_overview():
+
+def load_project_overview():
     """
-    loads a diagram with an overview of the algorthm
-    : return: diagram with an overview of the algorithm
+    loads a diagram with an overview of the project
+    : return: diagram with an overview of the project
     """
-    algorithm = sk.imread("../code/Algorithm_diagram.png")
-    sk.imshow(algorithm)
+    overview = sk.imread("../code/Algorithm_diagram.png")
+    si.show_one_image_title(overview, "Overview of the Project")
+
 
 def load_kmeans_diagram():
     """
@@ -255,4 +257,4 @@ def load_kmeans_diagram():
     : return: diagram with an overview of the K-Means algorithm
     """
     diagram = sk.imread("../code/K-Means_explained.png")
-    sk.imshow(diagram)
+    si.show_one_image_title2(diagram, "The K-Means algorithm")
